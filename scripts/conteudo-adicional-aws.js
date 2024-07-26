@@ -18,9 +18,3 @@ export default function () {
 		'Status code é 200.': (r) => r.status === 200,
 	});
 }
-
-export function handleSummary(data) {
-	return {
-		'saida.html': htmlReport(data),
-	};
-}
