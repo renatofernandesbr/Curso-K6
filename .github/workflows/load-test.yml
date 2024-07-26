@@ -1,11 +1,11 @@
 name: Load Test
 on: [push]
-permissions:
-  contents: write
 jobs:
   build: 
     name: K6 Load Test
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Step 1 - Checkout
         uses: actions/checkout@v4
