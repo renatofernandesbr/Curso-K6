@@ -8,5 +8,5 @@ jobs:
       uses: actions/checkout@v4
     - name: Step 2 - Runs Load Test
       uses: grafana/k6-action@v0.3.1
-        with:
-          filename: /scripts/conteudo-adicional-aws.js
+      with:
+        filename: /scripts/conteudo-adicional-aws.js
