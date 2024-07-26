@@ -16,4 +16,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Relatório de Testes de Performance
-          filename: index.html
+          path: report
